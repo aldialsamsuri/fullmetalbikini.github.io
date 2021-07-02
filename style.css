@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(35, 75, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+
+}
+
+.menulinks{
+    display: flex;
+    list-style: none;
+}
+
+.mainlogo a{
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.menulinks li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.pics{
+    margin-right: 40px;
+    color: white;
+}
+
+.profile{
+    color: white;
+}
+
+
+.topimg{
+    background-image: url('./images/shinozaki2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+.title{
+    color: white;
+    font-size: 64px;
+}
+
+
+
+
+
+
+.content1{
+    background-color: violet;
+    display: flex;
+    height: 500px;
+}
+
+.img{
+    background-image: url('./images/colection1.jpg');
+    background-size: cover;
+    background-position-x:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.img h1{
+    background-color: rgb(30, 97, 60);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-self: center;
+    padding-right: 50px;
+    
+
+}
+
+.snipet{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.snipet2{
+    background-image: url('./images/colection2.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snipet2 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.snipet3 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.snipet3{
+    background-image: url('./images/ai2.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.desc{
+    background-color: thistle;
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.bio{
+    background-color: rgb(48, 83, 99);
+    display: flex;
+    height: 350px;
+}
+
+.photo{
+    background-image: url('./images/icon2.jpg');
+    background-size: contain;
+    margin: 70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.disk{
+    
+    margin-top: 30px;
+    
+}
+
+.disk h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 34px;
+}
+
+.list{
+    list-style: none;
+    margin-top: 20px;
+    color: wheat;
+}
+
+.list li{
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.disk2{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+
+.favorite{
+    background-image: url('./images/shinozaki.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+}
+
+
+.h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 64px;
+    
+}
+
+.h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 250, 209);
+    font-size: 24px;
+}
+
+
+.story{
+    background-color: rgb(106, 194, 206);
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.storyimg{
+    background-image: url('./images/shinozakiimg.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 200px;
+    width: 150px;
+}
+
+
+.story2{
+    background-color: rgb(255, 220, 104);
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.storyimg2{
+    background-image: url(./images/icon.jpg);
+    background-size: cover;
+    background-position-x: center;
+    height: 200px;
+    width: 150px;
+}
+
+.storytittle{
+    font-size: 24px;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.storytittle a{
+    color: white;
+    text-decoration: none;
+}
+
+.storytittle2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.storytittle2{
+    font-size: 24px;
+    color: rgb(22, 22, 22);
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sweet{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.sweet1{
+    background-image: url('./images/thisisai.jpg');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.sweet2{
+    background-image: url('./images/sideai.jpg');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+.socialmediaicons{
+    background-color: wheat;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    background-color: grey;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+
